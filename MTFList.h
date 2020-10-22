@@ -7,5 +7,5 @@
 
 class MTFList : public LinkedList {
 public:
-	virtual bool contains(int anEntry);
+     virtual bool contains(int anEntry);
 };
