@@ -2,7 +2,7 @@
 
 bool MTFList::contains(int anEntry) {
 	if (size == 0) 
-        return false;
+           return false;
 
 	Node *preNode = head, *node = head->next;
 	while (node != NULL) {
