@@ -71,13 +71,13 @@ void LinkedList::clear(){
 //contains
 bool LinkedList::contains(int anEntry) {
 	if (size == 0) 
-  return false;
+           return false;
 	
   Node *node = head->next;
 	while (node != NULL) {
 		++traverseCount;
 		if (anEntry == node->data) 
-    return true;
+                   return true;
 		else node = node->next;
 	}
 	return false;
